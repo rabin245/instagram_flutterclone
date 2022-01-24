@@ -132,13 +132,13 @@ class _SignupScreenState extends State<SignupScreen> {
                     password: _passwordController.text,
                     username: _usernameController.text,
                     bio: _bioController.text,
-                    // file:
+                    file: _image!,
                   );
 
                   print(res);
                 },
                 child: Container(
-                  child: const Text('Log in'),
+                  child: const Text('Sign Up'),
                   width: double.infinity,
                   alignment: Alignment.center,
                   padding: const EdgeInsets.symmetric(vertical: 12),
