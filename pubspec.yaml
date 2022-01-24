@@ -38,6 +38,8 @@ dependencies:
   firebase_storage: ^10.2.5
   # flutter svg
   flutter_svg: ^1.0.3
+  # image picker
+  image_picker: ^0.8.4+4
 
 dev_dependencies:
 
