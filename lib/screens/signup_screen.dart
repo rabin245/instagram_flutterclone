@@ -129,6 +129,7 @@ class _SignupScreenState extends State<SignupScreen> {
                   ),
                 ],
               ),
+              const SizedBox(height: 24),
 
               // text field input for username
               TextFieldInput(
